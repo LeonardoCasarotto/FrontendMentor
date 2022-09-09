@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Frontend Mentor | Interactive rating component</title>
+
+
+
+
+  </head>
+  <body>
+
+    <div id="welcome" class="main">
+
+      <img src="./images/icon-star.svg" alt="" id="star"><br>
+      <h1>How did we do?</h1><br>
+      <p>Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p><br>
+      <div id="rating">
+        <button class="stars" id="btn1" onclick="change(1)">1</button>
+        <button class="stars" id="btn2" onclick="change(2)">2</button>
+        <button class="stars" id="btn3" onclick="change(3)">3</button>
+        <button class="stars" id="btn4" onclick="change(4)">4</button>
+        <button class="stars" id="btn5" onclick="change(5)">5</button>
+        <br>
+        <button id="submit" onclick="sub()">SUBMIT</button>
+      </div>
+
+    </div>
+
+    <div id="thanks" class="main">
+      <img src="./images/illustration-thank-you.svg" alt="">
+      <div id="selection"></div>
+
+      <h1>Thank you!</h1>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+    </div>
+
+
+
+
+
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="leonardocasarotto.github.io" target="_blank">Leonardo Casarotto</a>.
+    </footer>
+  </body>
+  <script src="./script/main.js"></script>
+</html>
