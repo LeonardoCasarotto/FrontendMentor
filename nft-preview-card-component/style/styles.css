@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+h1,p{
+    font-family: 'Outfit', sans-serif;
+    color:white
+
+}
+p{
+    font-size:16px;
+}
+html{
+    border:none;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+#main{
+
+    background-color: hsl(216, 50%, 16%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:30em;
+    text-align: center;
+    border-radius: 2.5em;
+
+}
+#equilibrium{
+    margin-top:2.5em;
+    width: 25em;
+
+}
+h1{
+    padding-left:1.5em;
+}
+#desc{
+    padding-left: 2.8em;
+    font-weight: 300;
+    color:hsl(215, 51%, 70%);
+}
+.left{
+    text-align: left;
+
+
+}
+#first img,span #price{
+    display: inline-block;
+    vertical-align: middle;
+    color: cyan;
+
+
+}
+#second img, #time{
+    display: inline-block;
+    vertical-align: middle;
+    color:hsl(215, 51%, 70%);
+}
+
+#first{
+    margin-top: 1.2em;
+    padding-left: 2.8em;
+    float:left;
+
+
+}
+#second{
+    margin-top: 1.2em;
+    padding-right: 2.8em;
+    float:right;
+
+}
+
+hr{
+    margin-top: 7em;
+    width: 25em;
+    border-top: 0.02em solid hsl(215, 51%, 70%);
+    border-bottom:none;
+
+}
+.who{
+    display: inline-block;
+    vertical-align: middle;
+    float:left;
+    padding-top:1em;
+    padding-left: 2.5em;
+    padding-bottom: 1em;
+}
+#artist{
+    font-weight: 300;
+    color:hsl(215, 51%, 70%);
+}
+#artist b{
+    color: white ;
+}
+#avatar{
+    width: 3em;
+    height: 3em;
+
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    color:white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.8em;
+    padding-bottom: 0.5em;
+    letter-spacing: 0.05em;
+}
+footer a{
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    #main{
+        width: 20em;
+    }
+    #equilibrium{
+        width: 15em;
+    }
+    hr{
+        width: 15em;
+    }
+    h1{
+        padding-left: 0.9em;
+    }
+    #desc{
+        padding-left: 1.8em;
+    }
+    #first{
+        padding-left: 1.8em;
+    }
+    #second{
+        padding-right: 1.8em;
+    }
+    .who{
+        padding-left: 1.5em;
+
+    }
+    #avatar{
+        width: 2.5em;
+        height: 2.5em;
+
+    }
+
+    }
+
