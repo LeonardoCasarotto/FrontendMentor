@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background: hsl(225, 100%, 94%) url(../images/pattern-background-desktop.svg) no-repeat;
+}
+
+
+
+#main{
+    background:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28em;
+
+    border-radius: 3em;
+
+}
+#main #music{
+    width: 28em;
+    border-radius: 3em 3em 0 0;
+
+}
+#text{
+
+    color:hsl(223, 47%, 23%);
+    text-align: center;
+    padding: 1.9em;
+
+}
+
+
+
+
+#cart{
+    background-color: hsl(230, 75%, 98%);
+    border-radius: 1em;
+
+    height:5em;
+}
+#cart span{
+
+    display: inline-block;
+    width: 7.5em;
+    vertical-align: middle;
+
+
+}
+#cart a:active{
+    color:hsl(245, 83%, 68%);
+}
+
+
+
+button{
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Red Hat Display', sans-serif;
+    display: block;
+    margin:auto;
+}
+#proceed{
+    background-color: hsl(245, 75%, 52%);
+    color:white;
+    border-radius: 0.5em;
+    width: 24em;
+    height: 2.5em;
+    margin-top: 1.5em;
+    border: none;
+    font-size: 1em;
+
+    box-shadow: 0 0.5em 0.5em -0.4em hsl(245, 75%, 52%);
+}
+#proceed:active{
+    background: hsl(245, 83%, 68%);
+}
+
+
+#cancel{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(224, 23%, 55%);
+    border-radius: 0.5em;
+    width: 24em;
+    height: 2.5em;
+    margin-top: 1.5em;
+    border: none;
+    font-size: 1em;
+
+
+}
+#cancel:active{
+    color:hsl(223, 47%, 23%);
+}
+
+
+
+
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 0.7em;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        background: hsl(225, 100%, 94%) url(../images/pattern-background-mobile.svg) no-repeat;
+    }
+    #main{
+        width: 20em;
+    }
+    #main #music{
+        width: 20em;
+    }
+    #cart span{
+        width: 6.5em;
+    }
+    #cart{
+        font-size: 0.8em;
+    }
+    #proceed{
+        width: 16em;
+    }
+    #cancel{
+        width: 16em;
+    }
+    footer{
+        font-size: 0.8em;
+    }
+}
